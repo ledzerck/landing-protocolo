@@ -89,6 +89,11 @@ h1 {
     color: #7a7a7a;
 }
 
+#contacto {
+    background: linear-gradient(90deg, rgba(38,163,250,1) 50%, rgba(0,212,255,1) 100%);
+    color: #fff;
+}
+
 
 #contacto .highlight {
     width: 100%;
@@ -108,13 +113,29 @@ h1 {
     text-align: center;
     font-size: 60px;
     width: 100%;
-    color: rgba(38,163,250,1);
 }
 
 #contacto .highlight .btn {
     background-color: rgba(38,163,250,1);
     color: #ffffff;
     align-self: center;
-    width: 100%;
     margin-top: 10px;
+    border-radius: 30px;
 }
+
+#contacto .highlight.buzon {
+    background: #f759ac;
+    border-radius: .5rem;
+    color: #ffffff;
+}
+
+#contacto .highlight.buzon .icono {
+    color: #ffffff;
+}
+
+#contacto .highlight.buzon .btn {
+    color: #ffffff;
+    background: #ff0a8b;
+}
+
+
